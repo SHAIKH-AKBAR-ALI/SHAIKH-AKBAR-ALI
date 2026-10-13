@@ -1,0 +1,121 @@
+<svg width="880" height="200" viewBox="0 0 880 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Card Gradients -->
+    <linearGradient id="cardBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b0f19"/>
+    </linearGradient>
+
+    <!-- Glowing Lines -->
+    <linearGradient id="streamGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+
+    <linearGradient id="streamGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="streamGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+
+    <filter id="glowEffect" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes movePacket1 {
+      0% { cx: 195px; opacity: 0; }
+      15% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { cx: 250px; opacity: 0; }
+    }
+    @keyframes movePacket2 {
+      0% { cx: 435px; opacity: 0; }
+      15% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { cx: 485px; opacity: 0; }
+    }
+    @keyframes movePacket3 {
+      0% { cx: 685px; opacity: 0; }
+      15% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { cx: 735px; opacity: 0; }
+    }
+    .packet-1 { animation: movePacket1 2.4s infinite cubic-bezier(0.4, 0, 0.6, 1); }
+    .packet-2 { animation: movePacket2 2.4s infinite cubic-bezier(0.4, 0, 0.6, 1); animation-delay: 0.6s; }
+    .packet-3 { animation: movePacket3 2.4s infinite cubic-bezier(0.4, 0, 0.6, 1); animation-delay: 1.2s; }
+    .font-code { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+    .font-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; }
+  </style>
+
+  <!-- Background Base Canvas -->
+  <rect width="880" height="200" rx="12" fill="#050811" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Connecting Pipes -->
+  <line x1="195" y1="100" x2="250" y2="100" stroke="url(#streamGrad1)" stroke-width="2" stroke-dasharray="4 2"/>
+  <line x1="435" y1="100" x2="485" y2="100" stroke="url(#streamGrad2)" stroke-width="2" stroke-dasharray="4 2"/>
+  <line x1="685" y1="100" x2="735" y2="100" stroke="url(#streamGrad3)" stroke-width="2" stroke-dasharray="4 2"/>
+
+  <!-- Animated Data Packets Flowing -->
+  <circle cx="195" cy="100" r="3.5" fill="#38bdf8" filter="url(#glowEffect)" class="packet-1"/>
+  <circle cx="435" cy="100" r="3.5" fill="#a855f7" filter="url(#glowEffect)" class="packet-2"/>
+  <circle cx="685" cy="100" r="3.5" fill="#34d399" filter="url(#glowEffect)" class="packet-3"/>
+
+  <!-- Node 1: Input / Client Layer -->
+  <g transform="translate(25, 35)">
+    <rect width="170" height="130" rx="10" fill="url(#cardBg1)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5"/>
+    <rect x="12" y="14" width="28" height="28" rx="6" fill="#0c4a6e" fill-opacity="0.5"/>
+    <text x="21" y="32" font-size="14">💬</text>
+    <text x="48" y="26" fill="#38bdf8" font-size="10" class="font-code" font-weight="700">01 // INGESTION</text>
+    <text x="48" y="38" fill="#f8fafc" font-size="12" class="font-body" font-weight="700">User Query</text>
+    <line x1="12" y1="52" x2="158" y2="52" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="74" fill="#94a3b8" font-size="11" class="font-code">• Multimodal &amp; Text</text>
+    <text x="14" y="94" fill="#94a3b8" font-size="11" class="font-code">• Intent Extraction</text>
+    <text x="14" y="114" fill="#94a3b8" font-size="11" class="font-code">• Context Grounding</text>
+  </g>
+
+  <!-- Node 2: LangGraph Orchestration Layer -->
+  <g transform="translate(250, 35)">
+    <rect width="185" height="130" rx="10" fill="url(#cardBg1)" stroke="#818cf8" stroke-width="1" stroke-opacity="0.6"/>
+    <rect x="12" y="14" width="28" height="28" rx="6" fill="#312e81" fill-opacity="0.5"/>
+    <text x="21" y="32" font-size="14">🧠</text>
+    <text x="48" y="26" fill="#818cf8" font-size="10" class="font-code" font-weight="700">02 // AGENT ROUTER</text>
+    <text x="48" y="38" fill="#f8fafc" font-size="12" class="font-body" font-weight="700">LangGraph Core</text>
+    <line x1="12" y1="52" x2="173" y2="52" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="74" fill="#94a3b8" font-size="11" class="font-code">• State-Graph Machine</text>
+    <text x="14" y="94" fill="#94a3b8" font-size="11" class="font-code">• Multi-Agent Routing</text>
+    <text x="14" y="114" fill="#94a3b8" font-size="11" class="font-code">• Deterministic Falls</text>
+  </g>
+
+  <!-- Node 3: Hybrid Retrieval & RAG Layer -->
+  <g transform="translate(485, 35)">
+    <rect width="200" height="130" rx="10" fill="url(#cardBg1)" stroke="#c084fc" stroke-width="1" stroke-opacity="0.6"/>
+    <rect x="12" y="14" width="28" height="28" rx="6" fill="#581c87" fill-opacity="0.5"/>
+    <text x="21" y="32" font-size="14">⚡</text>
+    <text x="48" y="26" fill="#c084fc" font-size="10" class="font-code" font-weight="700">03 // RETRIEVAL</text>
+    <text x="48" y="38" fill="#f8fafc" font-size="12" class="font-body" font-weight="700">Hybrid RAG Engine</text>
+    <line x1="12" y1="52" x2="188" y2="52" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="74" fill="#94a3b8" font-size="11" class="font-code">• Dense (Astra / FAISS)</text>
+    <text x="14" y="94" fill="#94a3b8" font-size="11" class="font-code">• Sparse Lexical BM25</text>
+    <text x="14" y="114" fill="#94a3b8" font-size="11" class="font-code">• Cross-Encoder Rerank</text>
+  </g>
+
+  <!-- Node 4: Production FastAPI Execution Layer -->
+  <g transform="translate(735, 35)">
+    <rect width="120" height="130" rx="10" fill="url(#cardBg1)" stroke="#34d399" stroke-width="1" stroke-opacity="0.6"/>
+    <rect x="12" y="14" width="28" height="28" rx="6" fill="#064e3b" fill-opacity="0.5"/>
+    <text x="21" y="32" font-size="14">🚀</text>
+    <text x="48" y="26" fill="#34d399" font-size="9" class="font-code" font-weight="700">04 // SERVE</text>
+    <text x="48" y="38" fill="#f8fafc" font-size="11" class="font-body" font-weight="700">FastAPI</text>
+    <line x1="12" y1="52" x2="108" y2="52" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="74" fill="#94a3b8" font-size="10.5" class="font-code">• Dockerized</text>
+    <text x="14" y="94" fill="#94a3b8" font-size="10.5" class="font-code">• Async Stream</text>
+    <text x="14" y="114" fill="#94a3b8" font-size="10.5" class="font-code">• Validated</text>
+  </g>
+</svg>
