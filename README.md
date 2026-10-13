@@ -1,125 +1,49 @@
-<h1 align="center">Hi 👋, I'm Shaikh Akbar Ali</h1>
-<h3 align="center">Machine Learning & GenAI Engineer | Building Agentic AI & Scalable Systems</h3>
-<p align="center">📍 Mumbai, Maharashtra, India</p>
+# Shaikh Akbar Ali
 
-<img align="right" alt="Developer Coding" width="380" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif" />
+**AI Engineer** | Agentic AI, Hybrid RAG & Production Backend Systems  
+Mumbai, Maharashtra, India • [Portfolio](https://portfolio-liard-mu-5zv1yuvq8q.vercel.app/) • [LinkedIn](https://linkedin.com/in/shaikh-akbar-ali-a5b44128b) • [Email](mailto:mimali31394@gmail.com)
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=SHAIKH-AKBAR-ALI&label=Profile%20views&color=0e75b6&style=flat" alt="SHAIKH-AKBAR-ALI profile views" />
-</p>
+---
 
-- 🔭 I’m currently building **Autonomous AI Agents, Multi-Agent Workflows & Production RAG Pipelines**
-- 🧠 Deeply focused on **LangGraph, Agentic Reasoning, Fine-Tuning SLMs, and LLMOps**
-- 🛠️ Engineering robust microservices with **Python, FastAPI, Docker, and Vector Databases**
-- 💬 Ask me about **LLM Orchestration, RAG Architectures, ML Pipelines, & FastAPI**
-- 📫 Reach me directly at: **[mimali31394@gmail.com](mailto:mimali31394@gmail.com)**
-- 🌐 Explore my projects & portfolio: **[portfolio-liard-mu-5zv1yuvq8q.vercel.app](https://portfolio-liard-mu-5zv1yuvq8q.vercel.app/)**
+I build production-oriented AI applications with a focus on autonomous agent workflows, hybrid retrieval systems, and reliable API services. My background combines applied GenAI orchestration (LangGraph, hybrid dense/sparse search) with disciplined backend engineering in Python, FastAPI, and Docker.
 
-<br/>
+Actively open to AI/ML and GenAI Engineering opportunities where reliability, latency, and system architecture matter.
 
-<h3 align="left">🤝 Connect with Me:</h3>
-<p align="left">
-  <a href="https://linkedin.com/in/shaikh-akbar-ali-a5b44128b" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://portfolio-liard-mu-5zv1yuvq8q.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="mailto:mimali31394@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
+---
 
-<br/>
+### What I'm Building
 
-<h3 align="left">🛠️ Languages & Tools:</h3>
-<p align="left">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="pytorch" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="tensorflow" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="flask" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://streamlit.io/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/streamlit/streamlit-original.svg" alt="streamlit" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://numpy.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="numpy" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://opencv.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" alt="opencv" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="42" height="42"/>
-  </a>
-  &nbsp;
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="42" height="42"/>
-  </a>
-</p>
+- **Agentic Workflows:** State-governed multi-agent architectures using LangGraph with deterministic fallback paths and structured outputs.
+- **Hybrid RAG Systems:** Retrieval pipelines combining dense semantic vector search (AstraDB, Pinecone, FAISS) and BM25 keyword search via Reciprocal Rank Fusion (RRF), cross-encoder reranked for high precision.
+- **Production AI Backends:** High-concurrency, containerized FastAPI services instrumented for token costs and p50/p95 latency.
 
-<br/>
+---
 
-<h3 align="left">📌 Featured Repositories:</h3>
+### Featured Projects
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| 🌸 **[sakura-AI](https://github.com/SHAIKH-AKBAR-ALI/sakura-AI)** | Conversational AI assistant & LLM interface | Python, LLMs, Prompt Engineering |
-| 💰 **[ai-cost-predictor](https://github.com/SHAIKH-AKBAR-ALI/ai-cost-predictor)** | Predictive ML pipeline forecasting infrastructure & cloud operational costs | Python, Scikit-Learn, Pandas |
-| 🛍️ **[FLIPKART-product-recommender-system](https://github.com/SHAIKH-AKBAR-ALI/FLIPKART-product-recommender-system)** | Smart e-commerce recommendation engine utilizing collaborative & content filtering | Python, Recommendation Systems, NLP |
-| ✈️ **[flight-price-predictor](https://github.com/SHAIKH-AKBAR-ALI/flight-price-predictor)** | Dynamic regression model estimating airfare based on historical travel data | Python, Feature Engineering, Regression |
+| Project | Problem Solved | Tech Stack | Links |
+| :--- | :--- | :--- | :--- |
+| **[Flipkart AI Shopping Assistant](https://github.com/SHAIKH-AKBAR-ALI/flipkart-ai-shopping-assistant)** | Multi-agent shopping system routing complex queries across 3 specialized agents with a hybrid dense + BM25 RAG pipeline. | Python, LangGraph, LangChain, Groq (Llama 3.3), AstraDB, FastAPI, Docker | [Live Demo](https://flipkart-ai-shopping-assistant.vercel.app/) / [Repo](https://github.com/SHAIKH-AKBAR-ALI/flipkart-ai-shopping-assistant) |
+| **[FairFare Flight Intelligence Agent](https://github.com/SHAIKH-AKBAR-ALI/flight-predictor-v2)** | LangGraph ReAct flight agent performing live fare search, automated rule validation, and ML price forecasting with SHAP explainability. | Python, FastAPI, LangGraph, Random Forest, SHAP, Supabase, Playwright | [Live Demo](https://flight-predictor-v2-frontend.onrender.com/) / [Repo](https://github.com/SHAIKH-AKBAR-ALI/flight-predictor-v2) |
+| **[MacroChat AI](https://github.com/SHAIKH-AKBAR-ALI/macrochat-ai)** | Zero-hallucination nutrition tracker: GPT-4o Vision detects foods while nutritional macros are resolved strictly via verified Indian & USDA databases. | Python, FastAPI, LangGraph, GPT-4o Vision, PostgreSQL, Supabase | [Live Demo](https://macrochat-d6oi.onrender.com/) / [Repo](https://github.com/SHAIKH-AKBAR-ALI/macrochat-ai) |
+| **[JARVIS Assistant](https://github.com/SHAIKH-AKBAR-ALI/jarvis-assistant)** | Voice & text multi-agent personal assistant with long-term memory persistence, tool execution, and contextual task delegation. | Python, LangGraph, Streamlit, SQLite, Docker | [Repo](https://github.com/SHAIKH-AKBAR-ALI/jarvis-assistant) |
 
-<br/>
+---
 
-<h3 align="left">📊 GitHub Analytics & Activity:</h3>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SHAIKH-AKBAR-ALI&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Shaikh Akbar Ali's GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SHAIKH-AKBAR-ALI&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SHAIKH-AKBAR-ALI&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
+### Tech Stack
 
-<br/>
+- **Languages:** Python, SQL
+- **Agentic AI & LLMs:** LangGraph, LangChain, RAG (Dense + BM25, RRF, Cross-Encoder Reranking), Tool Calling, Prompt Engineering
+- **Backend & APIs:** FastAPI, REST APIs, AsyncIO
+- **Databases & Vector Search:** AstraDB, Pinecone, FAISS, PostgreSQL, Supabase, MySQL
+- **ML & Data:** PyTorch, Scikit-learn, Pandas, NumPy, SHAP
+- **DevOps & Cloud:** Docker, GitHub Actions, AWS, GCP, Render, Linux
 
-<p align="center">
-  <i>"Building intelligent systems that learn, reason, and create value."</i>
-</p>
+---
+
+### Connect
+
+- **Portfolio:** [portfolio-liard-mu-5zv1yuvq8q.vercel.app](https://portfolio-liard-mu-5zv1yuvq8q.vercel.app/)
+- **LinkedIn:** [linkedin.com/in/shaikh-akbar-ali-a5b44128b](https://linkedin.com/in/shaikh-akbar-ali-a5b44128b)
+- **Email:** [mimali31394@gmail.com](mailto:mimali31394@gmail.com)
+- **Location:** Mumbai, Maharashtra, India
