@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/SHAIKH-AKBAR-ALI/SHAIKH-AKBAR-ALI/main/assets/hero-banner.svg" alt="Shaikh Akbar Ali - AI Systems Engineer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,11,20,30&height=220&section=header&text=SHAIKH%20AKBAR%20ALI&fontSize=50&fontColor=ffffff&animation=fadeIn&subtext=AI%20Engineer%20%E2%80%A2%20LangGraph%20Multi-Agent%20%E2%80%A2%20Production%20Hybrid%20RAG&subfontSize=18&subfontColor=38bdf8" alt="Shaikh Akbar Ali - AI Systems Engineer" width="100%" />
 
 <br/>
 
@@ -34,11 +34,17 @@ I engineer production-grade AI systems that bridge raw non-deterministic foundat
 
 Actively open to **AI/ML & Generative AI Engineering opportunities** building scalable agentic systems.
 
-<br/>
+```mermaid
+flowchart LR
+    A["💬 User Query<br><b>(Multimodal & Text)</b>"] --> B["🧠 LangGraph Router<br><b>(State-Graph Machine)</b>"]
+    B --> C["⚡ Hybrid RAG Engine<br><b>(AstraDB + BM25 + RRF)</b>"]
+    C --> D["🚀 FastAPI Core<br><b>(Dockerized Async Stream)</b>"]
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/SHAIKH-AKBAR-ALI/SHAIKH-AKBAR-ALI/main/assets/architecture-pipeline.svg" alt="System Architecture Pipeline" width="100%" />
-</div>
+    style A fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
+    style B fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#f8fafc
+    style C fill:#3b0764,stroke:#c084fc,stroke-width:2px,color:#f8fafc
+    style D fill:#022c22,stroke:#34d399,stroke-width:2px,color:#f8fafc
+```
 
 ---
 
