@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero-banner.svg" alt="Shaikh Akbar Ali - AI Systems Engineer" width="100%" />
+<img src="https://raw.githubusercontent.com/SHAIKH-AKBAR-ALI/SHAIKH-AKBAR-ALI/main/assets/hero-banner.svg" alt="Shaikh Akbar Ali - AI Systems Engineer" width="100%" />
 
 <br/>
 
@@ -37,7 +37,7 @@ Actively open to **AI/ML & Generative AI Engineering opportunities** building sc
 <br/>
 
 <div align="center">
-  <img src="./assets/architecture-pipeline.svg" alt="System Architecture Pipeline" width="100%" />
+  <img src="https://raw.githubusercontent.com/SHAIKH-AKBAR-ALI/SHAIKH-AKBAR-ALI/main/assets/architecture-pipeline.svg" alt="System Architecture Pipeline" width="100%" />
 </div>
 
 ---
